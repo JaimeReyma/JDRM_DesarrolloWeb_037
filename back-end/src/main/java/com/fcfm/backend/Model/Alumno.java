@@ -9,7 +9,8 @@ public class Alumno {
         this.nombre = nombre;
     }
 
-    String nombre;
+    private String nombre;
+
 
     public String getApellidoPaterno() {
         return apellidoPaterno;
@@ -19,7 +20,8 @@ public class Alumno {
         this.apellidoPaterno = apellidoPaterno;
     }
 
-    String apellidoPaterno;
+    private String apellidoPaterno;
+
 
     public String getApellidoMaterno() {
         return apellidoMaterno;
@@ -29,7 +31,8 @@ public class Alumno {
         this.apellidoMaterno = apellidoMaterno;
     }
 
-    String apellidoMaterno;
+    private String apellidoMaterno;
+
 
     public Integer getEdad() {
         return edad;
@@ -39,8 +42,29 @@ public class Alumno {
         this.edad = edad;
     }
 
-    Integer edad;
+    private Integer edad;
 
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    private String telefono;
+
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    private String email;
 
 
 }
