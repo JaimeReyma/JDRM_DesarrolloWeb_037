@@ -27,6 +27,3 @@ public interface IAlumnoApiController {
     @DeleteMapping("/id/{idAlumno}")
     ResponseEntity<Void> deleteAlumno(@PathVariable int idAlumno);
 }
-
-
-

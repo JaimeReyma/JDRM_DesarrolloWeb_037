@@ -2,6 +2,7 @@ package com.fcfm.backend.Controller.impl;
 
 import com.fcfm.backend.Controller.IAlumnoApiController;
 import com.fcfm.backend.Model.Alumno;
+import com.fcfm.backend.Repository.IAlumnoRepository;
 import com.fcfm.backend.Service.IAlumnoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +15,7 @@ import java.util.List;
 @RestController
 public class AlumnoApiControllerImpl implements IAlumnoApiController {
     private IAlumnoService alumnoService;
+    private IAlumnoRepository alumnoRepository;
 
     @Autowired
     AlumnoApiControllerImpl(IAlumnoService alumnoService){
