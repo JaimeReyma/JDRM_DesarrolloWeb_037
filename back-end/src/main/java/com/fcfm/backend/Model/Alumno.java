@@ -1,46 +1,67 @@
 package com.fcfm.backend.Model;
 
+import java.util.Date;
+
 public class Alumno {
-    public String getNombre() {
-        return nombre;
+    public String getPrimernombre() {
+        return primernombre;
     }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setPrimernombre(String primernombre) {
+        this.primernombre = primernombre;
     }
+    private String primernombre;
 
-    String nombre;
 
-    public String getApellidoPaterno() {
-        return apellidoPaterno;
+    public String getSegundonombre() {
+        return segundonombre;
     }
-
-    public void setApellidoPaterno(String apellidoPaterno) {
-        this.apellidoPaterno = apellidoPaterno;
+    public void setSegundonombre(String segundonombre) {
+        this.segundonombre = segundonombre;
     }
+    private String segundonombre;
 
-    String apellidoPaterno;
 
-    public String getApellidoMaterno() {
-        return apellidoMaterno;
+    public String getApellidopat() {
+        return apellidopat;
     }
-
-    public void setApellidoMaterno(String apellidoMaterno) {
-        this.apellidoMaterno = apellidoMaterno;
+    public void setApellidopat(String apellidopat) {
+        this.apellidopat = apellidopat;
     }
+    private String apellidopat;
 
-    String apellidoMaterno;
 
-    public Integer getEdad() {
-        return edad;
+    public String getApellidomat() {return apellidomat;}
+    public void setApellidomat(String apellidomat) {
+        this.apellidomat = apellidomat;
     }
+    private String apellidomat;
 
-    public void setEdad(Integer edad) {
-        this.edad = edad;
+
+    public String getFechanac() {
+        return fechanac;
     }
+    public void setFechanac(String fechanac) {
+        this.fechanac = fechanac;
+    }
+    private String fechanac;
 
-    Integer edad;
 
+    public String getCurp() {
+        return curp;
+    }
+    public void setCurp(String curp) {
+        this.curp = curp;
+    }
+    private String curp;
+
+
+    public String getEmail() {
+        return email;
+    }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    private String email;
 
 
 }
